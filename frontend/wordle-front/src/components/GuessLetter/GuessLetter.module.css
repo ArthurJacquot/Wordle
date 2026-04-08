@@ -1,0 +1,28 @@
+.bloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 0.5rem;
+  border: 3px solid #2f2f2f;
+  margin: 0rem 0.25rem 0rem 0.25rem;
+}
+
+.bloc > input {
+  display: flex;
+  width: inherit;
+  height: inherit;
+  background: none;
+  border: none;
+}
+
+input:focus,
+input:active,
+input:focus-visible {
+  outline: none;
+}
+
+.blocWithLetter {
+  border-color: #646464;
+}
