@@ -1,9 +1,13 @@
 import GuessLetter from "../GuessLetter/GuessLetter";
 import styles from "./Game.module.css";
 function Game() {
+  // autoFocus le premier
+
   return (
     <div className={styles.gameBody}>
-      <h2>POUET</h2>
+      <GuessLetter />
+      <GuessLetter />
+      <GuessLetter />
       <GuessLetter />
       <GuessLetter />
     </div>
